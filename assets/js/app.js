@@ -43,17 +43,16 @@ class TP extends React.Component
 
 }
 
-class App extends React.Component
+{/* composant stateless*/}
+function App()
 {
-	render()
-	{
-		return (
-			<div>
-				<TP color="red"/>
-				<TP color="green"/>
-				<TP color="blue"/>
-			</div>
-		);
-	}
+	return (
+		<div>
+			<TP color="red"/>
+			<TP color="green"/>
+			<TP color="blue"/>
+		</div>
+	);
 }
+
 ReactDOM.render(<App/>, document.getElementById('root'))
