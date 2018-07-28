@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  D:\cmder\cmder\bin;D:\cmder\cmder\vendor\git-for-windows\cmd;D:\cmder\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\cmder\cmder\vendor\conemu-maximus5;D:\cmder\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Inno Setup 5;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\eliam\Documents\Demo\vendor\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\PuTTY\;C:\Program Files\SublimeText;C:\Program Files\Git;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs\;C:\Program Files\Sublime Text 3\;C:\Users\eliam\AppData\Roaming\npm;C:\Users\eliam\Documents\apache-ant-1.10.2-bin\apache-ant-1.10.2\bin;C:\Program Files\android-studio\bin;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files (x86)\Android\android-sdk\tools;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PHP;C:\Users\eliam\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\bin;C:\Users\eliam\Documents\composer;C:\xamppServer\php;C:\Users\eliam\Documents\Demo\vendor\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\eliam\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\PhpStorm 2017.2.1\bin;C:\Program Files\Git;C:\Program Files\SublimeText\;C:\Users\eliam\AppData\Local\Yarn\bin;C:\Users\eliam\AppData\Roaming\npm;D:\cmder\cmder\vendor\git-for-windows\cmd;D:\cmder\cmder\vendor\git-for-windows\mingw64;D:\cmder\cmder\vendor\git-for-windows\usr\bin;D:\cmder\cmder
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  8.7.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "react_reactNative",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/meschac38700/react_reactNative.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/meschac38700/react_reactNative/issues"
+    },
+    "homepage": "https://github.com/meschac38700/react_reactNative#readme",
+    "dependencies": {
+      "react": "^16.4.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:120971:13)
+      at emitNone (events.js:105:13)
+      at Interface.emit (events.js:207:7)
+      at Interface._ttyWrite (readline.js:775:16)
+      at ReadStream.onkeypress (readline.js:160:10)
+      at emitTwo (events.js:125:13)
+      at ReadStream.emit (events.js:213:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1011:36)
